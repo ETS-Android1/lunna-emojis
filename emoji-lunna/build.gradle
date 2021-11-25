@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.library'
+    id 'maven-publish'
 }
 
 android {
@@ -23,3 +24,16 @@ dependencies {
 }
 
 apply plugin: "com.vanniktech.maven.publish"
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication){
+                from components.release
+                groupId = 'md.ke.emoji_lunna'
+                artifactId = 'lunna'
+                version = '1.0.0'
+            }
+        }
+    }
+}
