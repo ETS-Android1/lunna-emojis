@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
 
 android {
   compileSdkVersion rootProject.ext.compileSdkVersion as int
@@ -21,3 +22,16 @@ dependencies {
 }
 
 apply plugin: "com.vanniktech.maven.publish"
+
+afterEvaluate {
+  publishing {
+    publications {
+      release(MavenPublication){
+        from components.release
+        groupId = 'com.vanniktech.emoji'
+        artifactId = 'material'
+        version = '1.0.0'
+      }
+    }
+  }
+}
