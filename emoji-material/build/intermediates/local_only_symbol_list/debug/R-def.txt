@@ -1,0 +1,6 @@
+R_DEF: Internal format may change without notice
+local
+attr? emojiSize
+styleable EmojiMaterialButton emojiSize
+styleable EmojiMaterialCheckBox emojiSize
+styleable EmojiMaterialRadioButton emojiSize

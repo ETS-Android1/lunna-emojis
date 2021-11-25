@@ -1,0 +1,12 @@
+com/vanniktech/emoji/material/EmojiMaterialRadioButton.java
+ com.vanniktech.emoji.material.EmojiMaterialRadioButton
+com/vanniktech/emoji/material/BuildConfig.java
+ com.vanniktech.emoji.material.BuildConfig
+com/vanniktech/emoji/material/EmojiMaterialCheckBox.java
+ com.vanniktech.emoji.material.EmojiMaterialCheckBox
+com/vanniktech/emoji/material/MaterialEmojiLayoutFactory.java
+ com.vanniktech.emoji.material.MaterialEmojiLayoutFactory
+com/vanniktech/emoji/material/Utils.java
+ com.vanniktech.emoji.material.Utils
+com/vanniktech/emoji/material/EmojiMaterialButton.java
+ com.vanniktech.emoji.material.EmojiMaterialButton
