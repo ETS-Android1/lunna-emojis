@@ -23,7 +23,6 @@ import com.vanniktech.emoji.EmojiEditText;
 import com.vanniktech.emoji.EmojiPopup;
 import com.vanniktech.emoji.material.MaterialEmojiLayoutFactory;
 
-import md.ke.lunnaemojis.utils.Files;
 import md.ke.toaster.ToasterMessage;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Files.installEmojis(MainActivity.this);
+//                Files.installEmojis(MainActivity.this);
             }
         });
 

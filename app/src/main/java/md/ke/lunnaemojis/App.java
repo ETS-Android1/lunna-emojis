@@ -9,8 +9,6 @@ import android.os.StrictMode;
 import androidx.appcompat.app.AppCompatDelegate;
 
 import com.vanniktech.emoji.EmojiManager;
-
-import md.ke.lunnaemojis.custom.CustomEmojiProvider;
 import md.ke.toaster.BuildConfig;
 
 public class App extends Application {
@@ -31,8 +29,6 @@ public class App extends Application {
         context = this;
 
         AppCompatDelegate.setDefaultNightMode(MODE_NIGHT_AUTO_BATTERY);
-
-        EmojiManager.install(new CustomEmojiProvider());
 
         if (BuildConfig.DEBUG) {
             StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder().detectAll().build());
