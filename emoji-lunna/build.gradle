@@ -32,7 +32,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'md.ke.emoji_lunna'
                 artifactId = 'lunna'
-                version = '1.0.7'
+                version = '1.0.8'
             }
         }
     }
