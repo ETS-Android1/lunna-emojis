@@ -8,6 +8,7 @@ import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -22,6 +23,7 @@ import com.vanniktech.emoji.EmojiEditText;
 import com.vanniktech.emoji.EmojiPopup;
 import com.vanniktech.emoji.material.MaterialEmojiLayoutFactory;
 
+import md.ke.lunnaemojis.utils.Files;
 import md.ke.toaster.ToasterMessage;
 
 public class MainActivity extends AppCompatActivity {
@@ -46,6 +48,13 @@ public class MainActivity extends AppCompatActivity {
 
         final Button button = findViewById(R.id.main_activity_material_button);
         button.setText("\uD83D\uDE18\uD83D\uDE02\uD83E\uDD8C");
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Files.installEmojis(MainActivity.this);
+            }
+        });
+
         editText = findViewById(R.id.main_activity_chat_bottom_message_edittext);
         rootView = findViewById(R.id.main_activity_root_view);
         emojiButton = findViewById(R.id.main_activity_emoji);
@@ -98,4 +107,5 @@ public class MainActivity extends AppCompatActivity {
                 //.setRecentEmoji(NoRecentEmoji.INSTANCE) // Uncomment this to hide recent emojis.
                 .build(editText);
     }
+
 }

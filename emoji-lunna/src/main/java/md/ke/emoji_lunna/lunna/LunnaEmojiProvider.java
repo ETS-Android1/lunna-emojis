@@ -32,7 +32,9 @@ import md.ke.emoji_lunna.lunna.category.SymbolsCategory;
 import md.ke.emoji_lunna.lunna.category.TravelAndPlacesCategory;
 
 public final class LunnaEmojiProvider implements EmojiProvider {
-  @Override @NonNull public EmojiCategory[] getCategories() {
+  @Override
+  @NonNull
+  public EmojiCategory[] getCategories() {
     return new EmojiCategory[] {
       new SmileysAndPeopleCategory(),
       new AnimalsAndNatureCategory(),

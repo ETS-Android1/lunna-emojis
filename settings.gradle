@@ -10,5 +10,6 @@ dependencyResolutionManagement {
 rootProject.name = "LunnaEmojis"
 include ':app'
 include ':emoji'
+include ':emoji-ios'
 include ':emoji-material'
 include ':emoji-lunna'

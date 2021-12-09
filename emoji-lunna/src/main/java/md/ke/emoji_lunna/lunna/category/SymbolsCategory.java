@@ -26,6 +26,7 @@ import com.vanniktech.emoji.emoji.EmojiCategory;
 import md.ke.emoji_lunna.R;
 import md.ke.emoji_lunna.lunna.LunnaEmoji;
 
+
 @SuppressWarnings("PMD.MethodReturnsInternalArray") public final class SymbolsCategory implements EmojiCategory {
   private static final LunnaEmoji[] EMOJIS = CategoryUtils.concatAll(SymbolsCategoryChunk0.get());
 

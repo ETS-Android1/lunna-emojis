@@ -4,7 +4,7 @@ A library to add Emoji support to Lunna app. Emojis can be picked in a PopupWind
 
 ### How to add the library to the project
 ```groovy
-implementation 'com.github.davidmureithi:lunna-emojis:1.0.6'
+implementation 'com.github.davidmureithi:lunna-emojis:1.0.7'
 ```
 
 Then install the provider in your application class.

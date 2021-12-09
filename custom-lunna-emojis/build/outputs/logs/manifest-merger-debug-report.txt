@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml:1:1-40
+INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml:1:1-40
+INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml:1:1-40
+	package
+		ADDED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml:1:11-38
+		INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+		INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml:1:1-40
+uses-sdk
+INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+		ADDED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml
+		INJECTED from /Users/king/Desktop/LunnaEmojis/emoji-lunna/src/main/AndroidManifest.xml

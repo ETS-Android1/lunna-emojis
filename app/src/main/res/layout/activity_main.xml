@@ -8,13 +8,13 @@
     android:orientation="vertical"
     tools:context=".MainActivity"
     >
+
   <Button
       android:id="@+id/main_activity_material_button"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:layout_alignParentTop="true"
-      android:layout_marginStart="16dp"
-      />
+      android:layout_marginStart="16dp" />
   <com.vanniktech.emoji.EmojiCheckbox
       android:id="@+id/main_activity_force_emojis_only"
       android:layout_width="wrap_content"

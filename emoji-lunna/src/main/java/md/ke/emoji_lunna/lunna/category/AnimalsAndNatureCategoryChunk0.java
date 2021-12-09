@@ -17,6 +17,7 @@
 
 package md.ke.emoji_lunna.lunna.category;
 
+
 import md.ke.emoji_lunna.lunna.LunnaEmoji;
 
 final class AnimalsAndNatureCategoryChunk0 {
